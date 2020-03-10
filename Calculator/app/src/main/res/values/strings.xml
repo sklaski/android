@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="output_text">0</string>
+    <string name="calculation_plusminus">±</string>
+    <string name="calculation_method_multiplication">×</string>
+    <string name="calculation_method_division">÷</string>
+    <string name="calculation_method_addition">+</string>
+    <string name="calculation_method_substraction">-</string>
+    <string name="button_digit">.</string>
+</resources>
