@@ -10,9 +10,9 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import lombok.NonNull;
 
-@Database( entities = Note.class, version = 1)
+@Database( entities = Note.class, version = 1, exportSchema = false)
 public abstract class NoteDatabase extends RoomDatabase {
-
+    //singleton
     private static NoteDatabase instance;
 
     public abstract NoteDao noteDao();

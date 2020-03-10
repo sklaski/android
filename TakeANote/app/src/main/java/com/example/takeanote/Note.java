@@ -7,11 +7,11 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter
-@Setter
 @Entity(tableName = "note_table")
 public class Note {
 
     @PrimaryKey(autoGenerate = true)
+    @Setter
     private Long id;
     private String title;
     private String description;
