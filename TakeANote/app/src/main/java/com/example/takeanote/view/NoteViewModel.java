@@ -1,10 +1,13 @@
-package com.example.takeanote;
+package com.example.takeanote.view;
 
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.example.takeanote.entity.Note;
+import com.example.takeanote.persistence.NoteRepository;
 
 import java.util.List;
 

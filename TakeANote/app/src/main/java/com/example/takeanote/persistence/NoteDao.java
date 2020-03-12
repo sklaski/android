@@ -1,4 +1,4 @@
-package com.example.takeanote;
+package com.example.takeanote.persistence;
 
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
@@ -6,6 +6,8 @@ import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
 import androidx.room.Update;
+
+import com.example.takeanote.entity.Note;
 
 import java.util.List;
 
@@ -22,8 +24,9 @@ public interface NoteDao  {
     void delete(Note note);
 
     @Query( "DELETE FROM note_table" )
-    void deleteAllNotes();
+    void nukeNotes();
 
     @Query( "SELECT * FROM note_table ORDER BY priority DESC" )
     LiveData<List<Note>> getAllNotes();
+
 }

@@ -1,4 +1,4 @@
-package com.example.takeanote;
+package com.example.takeanote.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,6 +17,10 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.takeanote.adapter.NoteAdapter;
+import com.example.takeanote.view.NoteViewModel;
+import com.example.takeanote.R;
+import com.example.takeanote.entity.Note;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;

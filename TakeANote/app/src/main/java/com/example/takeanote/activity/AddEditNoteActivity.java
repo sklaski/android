@@ -1,4 +1,4 @@
-package com.example.takeanote;
+package com.example.takeanote.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.takeanote.R;
 
 public class AddEditNoteActivity extends AppCompatActivity {
     public static final String EXTRA_ID = "com.example.takeanote.EXTRA_ID";

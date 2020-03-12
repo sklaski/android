@@ -1,4 +1,4 @@
-package com.example.takeanote;
+package com.example.takeanote.entity;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
