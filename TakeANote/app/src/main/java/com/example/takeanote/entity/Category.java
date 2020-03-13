@@ -12,7 +12,7 @@ public class Category {
 
     @PrimaryKey(autoGenerate = true)
     @Setter
-    private Long id;
+    private Long categoryId;
     private String category;
 
     public Category(String category) {

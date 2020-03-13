@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(Note note) {
                 Intent intent = new Intent( MainActivity.this, AddEditNoteActivity.class );
-                intent.putExtra( AddEditNoteActivity.EXTRA_ID, note.getId() );
+                intent.putExtra( AddEditNoteActivity.EXTRA_ID, note.getNoteId() );
                 intent.putExtra( AddEditNoteActivity.EXTRA_TITLE, note.getTitle() );
                 intent.putExtra( AddEditNoteActivity.EXTRA_DESCRIPTION, note.getDescription() );
                 intent.putExtra( AddEditNoteActivity.EXTRA_PRIORITY, note.getPriority() );
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
             int priority = data.getIntExtra( AddEditNoteActivity.EXTRA_PRIORITY, 1 );
             
             Note note = new Note(title, description, priority);
-            note.setId( id );
+            note.setNoteId( id );
             
             noteViewModel.update( note );
 

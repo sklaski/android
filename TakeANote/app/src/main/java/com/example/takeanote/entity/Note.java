@@ -16,7 +16,7 @@ public class Note {
 
     @PrimaryKey(autoGenerate = true)
     @Setter
-    private Long id;
+    private Long noteId;
     private String title;
     private String description;
     private int priority;

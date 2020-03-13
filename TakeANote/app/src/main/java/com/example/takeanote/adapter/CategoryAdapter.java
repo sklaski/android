@@ -17,7 +17,7 @@ public class CategoryAdapter extends ListAdapter<Category, CategoryAdapter.Categ
     private static final DiffUtil.ItemCallback<Category> DIFF_CALLBACK = new DiffUtil.ItemCallback<Category>() {
         @Override
         public boolean areItemsTheSame(Category oldItem, Category newItem) {
-            return oldItem.getId().equals( newItem.getId() );
+            return oldItem.getCategoryId().equals( newItem.getCategoryId() );
         }
 
         @Override

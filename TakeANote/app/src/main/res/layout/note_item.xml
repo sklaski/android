@@ -2,6 +2,7 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginEnd="8dp"
     android:layout_marginStart="8dp"
     android:layout_marginTop="8dp">
@@ -35,6 +36,14 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/text_view_title"
             android:text="Description"/>
+        <TextView
+            android:id="@+id/text_view_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_description"
+            android:text="Category"
+            android:visibility="invisible"
+            tools:visibility="visible"/>
 
     </RelativeLayout>
 
