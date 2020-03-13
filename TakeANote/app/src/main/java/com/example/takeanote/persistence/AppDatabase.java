@@ -44,8 +44,8 @@ public abstract class AppDatabase extends RoomDatabase {
         private  CategoryDao categoryDao;
 
         private PopulateDbAsyncTask(AppDatabase db) {
-            categoryDao = db.categoryDao();
             noteDao = db.noteDao();
+            categoryDao = db.categoryDao();
         }
 
         @Override
