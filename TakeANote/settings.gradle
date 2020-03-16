@@ -1,2 +1,2 @@
-rootProject.name='TakeANote'
+rootProject.name='Architecure Example'
 include ':app'

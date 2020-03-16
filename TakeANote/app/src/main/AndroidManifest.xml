@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".activity.MainActivity"
+        <activity
+            android:name="com.example.takeanote.activities.AddEditNoteActivity"
+            android:parentActivityName="com.example.takeanote.activities.MainActivity" />
+        <activity android:name="com.example.takeanote.activities.MainActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,9 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".activity.AddEditNoteActivity"
-            android:parentActivityName=".activity.MainActivity"/>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.takeanote.view;
+package com.example.takeanote.viewmodels;
 
 import android.app.Application;
 
@@ -7,7 +7,8 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
 import com.example.takeanote.entity.Note;
-import com.example.takeanote.persistence.NoteRepository;
+import com.example.takeanote.repository.NoteRepository;
+import com.example.takeanote.entity.NoteWithCategory;
 
 import java.util.List;
 
@@ -15,23 +16,32 @@ public class NoteViewModel extends AndroidViewModel {
 
     private NoteRepository repository;
     private LiveData<List<Note>> allNotes;
+    private LiveData<List<NoteWithCategory>> allNotesWithCategory;
 
-    public NoteViewModel (@NonNull Application application) {
+    public NoteViewModel(@NonNull Application application) {
         super(application);
-        repository = new NoteRepository( application );
+        repository = new NoteRepository(application);
         allNotes = repository.getAllNotes();
+        allNotesWithCategory = repository.getAllNotesWithCategory();
     }
 
     public void insert(Note note) {
-        repository.insert( note );
+        repository.insert(note);
     }
 
-    public void update (Note note) {
-        repository.update( note );
+    public void update(Note note) {
+
+        repository.update(note);
     }
 
     public void delete(Note note) {
+
         repository.delete(note);
+    }
+
+    public void deleteNoteWithId(long id) {
+
+        repository.deleteNoteWithId(id);
     }
 
     public void deleteAllNotes() {
@@ -41,4 +51,9 @@ public class NoteViewModel extends AndroidViewModel {
     public LiveData<List<Note>> getAllNotes() {
         return allNotes;
     }
+
+    public LiveData<List<NoteWithCategory>> getAllNotesWithCategory() {
+        return allNotesWithCategory;
+    }
+
 }
