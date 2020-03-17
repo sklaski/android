@@ -1,6 +1,7 @@
 package com.example.takeanote.entity;
 
 import androidx.room.Embedded;
+import androidx.room.Relation;
 
 import com.example.takeanote.entity.Category;
 import com.example.takeanote.entity.Note;
