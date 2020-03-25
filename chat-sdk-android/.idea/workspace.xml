@@ -7,16 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6d80ae1-1e22-47d2-b1e8-98e87242086f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-sdk-core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chat-sdk-core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-sdk-core/src/main/java/co/chatsdk/core/dao/DaoMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-sdk-core/src/main/java/co/chatsdk/core/dao/DaoMaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-sdk-core/src/main/java/co/chatsdk/core/dao/DaoSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-sdk-core/src/main/java/co/chatsdk/core/dao/DaoSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-sdk-core/src/main/java/co/chatsdk/core/push/DefaultBroadcastReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-sdk-core/src/main/java/co/chatsdk/core/push/DefaultBroadcastReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-sdk-firebase-social-login/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chat-sdk-firebase-social-login/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-sdk-ui/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/chat-sdk-ui/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-sdk-firebase-file-storage/src/main/java/co/chatsdk/firebase/file_storage/FirebaseFileStorageModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-sdk-firebase-file-storage/src/main/java/co/chatsdk/firebase/file_storage/FirebaseFileStorageModule.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +45,10 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Zc4jI3N43oNavajPHDjXEmGud3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="LombokPluginEnabledInProject" value="true" />
@@ -66,8 +61,8 @@
     <property name="LombokPluginIS_MISSING_LOMBOK_CHECK_Enabled" value="true" />
     <property name="LombokPluginIS_VAL_Enabled" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/project/AndroidTestChat" />
+    <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
