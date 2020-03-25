@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="chat-sdk-android/app" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-android.iml" filepath="$PROJECT_DIR$/chat-sdk-android.iml" group="chat-sdk-android" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-core/chat-sdk-core.iml" filepath="$PROJECT_DIR$/chat-sdk-core/chat-sdk-core.iml" group="chat-sdk-android/chat-sdk-core" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-firebase-adapter/chat-sdk-firebase-adapter.iml" filepath="$PROJECT_DIR$/chat-sdk-firebase-adapter/chat-sdk-firebase-adapter.iml" group="chat-sdk-android/chat-sdk-firebase-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-firebase-file-storage/chat-sdk-firebase-file-storage.iml" filepath="$PROJECT_DIR$/chat-sdk-firebase-file-storage/chat-sdk-firebase-file-storage.iml" group="chat-sdk-android/chat-sdk-firebase-file-storage" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-firebase-push/chat-sdk-firebase-push.iml" filepath="$PROJECT_DIR$/chat-sdk-firebase-push/chat-sdk-firebase-push.iml" group="chat-sdk-android/chat-sdk-firebase-push" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-firebase-social-login/chat-sdk-firebase-social-login.iml" filepath="$PROJECT_DIR$/chat-sdk-firebase-social-login/chat-sdk-firebase-social-login.iml" group="chat-sdk-android/chat-sdk-firebase-social-login" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-firebase-ui/chat-sdk-firebase-ui.iml" filepath="$PROJECT_DIR$/chat-sdk-firebase-ui/chat-sdk-firebase-ui.iml" group="chat-sdk-android/chat-sdk-firebase-ui" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-firestore-adapter/chat-sdk-firestore-adapter.iml" filepath="$PROJECT_DIR$/chat-sdk-firestore-adapter/chat-sdk-firestore-adapter.iml" group="chat-sdk-android/chat-sdk-firestore-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-micro/chat-sdk-micro.iml" filepath="$PROJECT_DIR$/chat-sdk-micro/chat-sdk-micro.iml" group="chat-sdk-android/chat-sdk-micro" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-profile-pictures/chat-sdk-profile-pictures.iml" filepath="$PROJECT_DIR$/chat-sdk-profile-pictures/chat-sdk-profile-pictures.iml" group="chat-sdk-android/chat-sdk-profile-pictures" />
+      <module fileurl="file://$PROJECT_DIR$/chat-sdk-ui/chat-sdk-ui.iml" filepath="$PROJECT_DIR$/chat-sdk-ui/chat-sdk-ui.iml" group="chat-sdk-android/chat-sdk-ui" />
+    </modules>
+  </component>
+</project>

@@ -17,5 +17,9 @@ public class Post {
     @SerializedName("body")
     private String text;
 
-
+    public Post(int userId, String title, String text) {
+        this.userId = userId;
+        this.title = title;
+        this.text = text;
+    }
 }
